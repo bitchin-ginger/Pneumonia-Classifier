@@ -20,8 +20,12 @@ __Conclusion: Automated detection of pneumonia at the level of radiological expe
 
 
 
-## Coronavirus Edition
+## Coronavirus Edition *GET INVOLVED!*
 I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world. 
+
+
+Find out more & get involved at: https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
+
 
 *The diagnosis of COVID-19 through chest X-rays has been performed in China, Italy, and the US*
 
