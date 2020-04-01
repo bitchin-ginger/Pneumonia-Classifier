@@ -1,6 +1,9 @@
 # Classification Of Pneumonia In Chest X-Rays
 This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays.
 
+![Predicted Norrmal](imgs/Predicted-Normal.png)
+![Predicted Pneumonia](imgs/Predicted-Pneumonia.png)
+
 # Motivating Facts
 - Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year <sup>[1]
 - Over 2 Billion chest X-rays/yr are performed, over half of which lack access to radiological diagnostics <sup>[2]
