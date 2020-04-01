@@ -32,17 +32,17 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 
 
 ## Convolutional Neural Network Modeling
-
-"A secuential convolutional neural network was compiled. The model consisted of 8 layers that would intake the image and output a classification prediction. This resulted in a model with total params of 918,850, 917,858 of which were trainable.
-
-After only 8 epochs a recall of .75 was achieved. "
+"A secuential convolutional neural network was compiled. The model consisted of 8 layers that would intake the image and output a classification prediction. This resulted in a model with total params of 918,850, 917,858 of which were trainable."
 
 
-27 unique Convultional Neural Networks were trained on the dataset from a range of 0-2 dense layers, 1-3 convolutions, and 32, 64, or 128 nodes.
+Recall is one of the most important metrics to focus on as this is a medical decision and could mean the difference between life and death and thereofre is much more important to flag those X-rays which test positive for pneumonia than to miss them. 
+
+After only 1 epoch a recall of .83 was achieved and would oscillate within the range of .83 and .99 for the remaining 15 epochs.
+
+27 unique Convolutional Neural Networks were trained on the dataset for 15 epochs each from a range of 0-2 dense layers, 1-3 convolutions, and 32, 64, or 128 nodes.
   
 ## Conclusion
-
-Out of the CNN's that were trained, the best model reached peak accuracy and lowest loss at the 9<sup>th</sup> epoch and remained steady thereafter suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for only 9 epochs.
+Out of the CNN's that were trained, the best model reached the highest accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs.
 
 ## Coronavirus Edition - *GET INVOLVED!*
 I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
