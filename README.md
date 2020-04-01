@@ -44,7 +44,7 @@ Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1
   
 ## Conclusion
 
-Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs. The final total number of parameters was 221,217.
+Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs. The total number of trainable parameters was 3,526,785.
 
 __The following 4 graphs are the best model:__
 
@@ -57,8 +57,6 @@ _The raw data for each graph is greyed out and the graphs were smoothed to 0.999
 ![Recall (smoothed)](imgs/Recall-smoothed.png)
 
 Recall is one of the most important metrics to focus on as this is a medical decision and could mean the difference between life and death and therefore is much more important to flag those X-rays which test positive for pneumonia than to miss them. 
-
-After only 1 epoch a recall of .83 was achieved. The recall would oscillate within the range of .83 and .99 for the remaining 15 epochs.
 
 This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs in the chest X-rays.
 
