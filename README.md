@@ -17,11 +17,11 @@ The goal was to develop a pipeline to detect Pneumonia with a high degree of acc
 
 ### Project Replication
 
-To replicate the project download the data<sup>[4] and follow the attached IPYNB
+To replicate the project download the data<sup>[4]<\sup> and follow the attached IPYNB
 
 ## Data & EDA
 
-The Data comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd expert
+The Data comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd<\sup> expert
 
 There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
 
@@ -42,7 +42,7 @@ After only 8 epochs a recall of .75 was achieved. "
   
 ## Conclusion
 
-Out of the CNN's that were trained, the best model reached peak accuracy and lowest loss at the 9<sup>th epoch and remained steady thereafter suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for only 9 epochs.
+Out of the CNN's that were trained, the best model reached peak accuracy and lowest loss at the 9<sup>th<\sup> epoch and remained steady thereafter suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for only 9 epochs.
 
 ## Coronavirus Edition - *GET INVOLVED!*
 I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
