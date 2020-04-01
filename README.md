@@ -16,8 +16,14 @@ __Conclusion: Automated detection of pneumonia at the level of radiological expe
 
 
 
-## Conclusion & Next Steps
-I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify COVID-19 in chest X-rays to help streamline the diagnostics process for overwhelmed and understaffed communities throughout the world. Diagnostics precedent has been set by multiple countries including China, Italy, and the US as the main mode of diagnosis for COVID-19.
+## Conclusion
+
+
+
+## Coronavirus Edition
+I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world. 
+
+*The diagnosis of COVID-19 through chest X-rays has been performed in China, Italy, and the US*
 
 ## Sources:
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
