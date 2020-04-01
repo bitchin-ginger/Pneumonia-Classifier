@@ -1,6 +1,5 @@
-# Computer Vision:
 # Classification Of Pneumonia In Chest X-Rays
-This project is designed to detect pneumonia based on chest X-rays.
+This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays.
 
 # Motivating Facts
 - Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year [1]
