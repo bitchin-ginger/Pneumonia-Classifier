@@ -25,11 +25,11 @@ The goal was to develop a pipeline to detect Pneumonia with a high degree of acc
 
 ### Project Replication
 
-To replicate the project download the data<sup>[4][5]</sup> and follow the attached IPYNB
+To replicate the project download the data<sup>[4]</sup><sup>[5]</sup> and follow the attached IPYNB
 
 ## Data
 
-The data<sup>[4][5]</sup> comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd</sup> expert
+The data<sup>[4]</sup><sup>[5]</sup> comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd</sup> expert
 
 There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
 
@@ -47,6 +47,7 @@ Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1
 Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs. The following 4 graphs are the best model. The raw data for each epoch is greyed out and the smoothed graphs are bolded to clearly reveal the trend.
 
 _The graphs were smoothed to 0.999%_
+
 ![Percent Smoothed](imgs/Smoothing.png)
 ![AUC (smoothed)](imgs/AUC-smoothed.png)
 ![Accuracy (smoothed)](imgs/Accuracy-smoothed.png)
