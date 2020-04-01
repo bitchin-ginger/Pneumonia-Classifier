@@ -1,4 +1,5 @@
-# Computer Vision Classification Of Pneumonia In Chest X-Rays
+# Computer Vision:
+# Classification Of Pneumonia In Chest X-Rays
 This project is designed to detect pneumonia based on chest X-rays.
 
 # Motivating Facts
