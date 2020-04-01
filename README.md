@@ -2,8 +2,11 @@
 This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays. Throughout this project, __Dr. Grant Rogero, M.D.__ a board certified radiologist at Lodi Adventist Health Hospital advised and certified that these findings are medically accurate.
 
 ![Predicted Norrmal](imgs/Predicted-Normal.png)
+
 _The normal chest X-ray above depicts clear lungs without any areas of abnormal opacification in the image._
+
 ![Predicted Pneumonia](imgs/Predicted-Pneumonia.png)
+
 _The chest X-ray above depicts Bacterial pneumonia which typically exhibits a focal lobar consolidation, in this case in the right upper lobe_
 
 # Motivating Facts
