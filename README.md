@@ -21,7 +21,7 @@ To replicate the project download the data<sup>[4]</sup> and follow the attached
 
 ## Data & EDA
 
-The Data comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd</sup> expert
+The data<sup>[4]</sup> comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd</sup> expert
 
 There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
 
@@ -33,18 +33,20 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 
 ## Convolutional Neural Network Modeling
 
-"A secuential convolutional neural network was compiled. The model consisted of 8 layers that would intake the image and output a classification prediction. This resulted in a model with total params of 918,850, 917,858 of which were trainable."
+27 unique Convolutional Neural Networks were compiled and trained on the dataset for 15 epochs each. The 27 was chosen as a grid search between 3 variations of 3 parameters (3x3x3 different networks). These parameters and options are as follows:
+- 0,1, or 2 Dense Layers
+- 1,2, or 3 Convolutions
+- 32, 64, or 128 nodes.
 
-
-Recall is one of the most important metrics to focus on as this is a medical decision and could mean the difference between life and death and thereofre is much more important to flag those X-rays which test positive for pneumonia than to miss them. 
-
-After only 1 epoch a recall of .83 was achieved and would oscillate within the range of .83 and .99 for the remaining 15 epochs.
-
-27 unique Convolutional Neural Networks were trained on the dataset for 15 epochs each from a range of 0-2 dense layers, 1-3 convolutions, and 32, 64, or 128 nodes.
+Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1/8th the original image size) and output a prediction of whether the X-ray revealed Pneumonia or was Normal.
   
 ## Conclusion
 
 Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs.
+
+Recall is one of the most important metrics to focus on as this is a medical decision and could mean the difference between life and death and therefore is much more important to flag those X-rays which test positive for pneumonia than to miss them. 
+
+After only 1 epoch a recall of .83 was achieved. The recall would oscillate within the range of .83 and .99 for the remaining 15 epochs.
 
 ## Coronavirus Edition - *GET INVOLVED!*
 
