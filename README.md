@@ -48,12 +48,12 @@ Out of the CNN's that were trained, the best model reached peak accuracy and low
 I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
 
 
-Find out more & get involved at: https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
+Find Out More & Get Involved:
+https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
 
 
 *The diagnosis of COVID-19 which presents as Bilateral Interstitial Pneumonia through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[5]*
 
-## Sources:
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
 [2]: https://arxiv.org/pdf/1711.05225.pdf
 [3]: https://www.nhlbi.nih.gov/health-topics/chest-x-ray
