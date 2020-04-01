@@ -13,24 +13,49 @@ __Conclusion: Automated detection of pneumonia at the level of radiological expe
 
 ## Project Goals
 
+The goal was to develop a pipeline to detect Pneumonia with a high degree of accuracy as a starting point to then detect COVID-19.
+
+### Project Replication
+
+To replicate the project download the data<sup>[4] and follow the attached IPYNB
+
+## Data & EDA
+
+The Data comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd expert
+
+There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
+
+"
+ Figure S6. Illustrative Examples of Chest X-Rays in Patients with Pneumonia, Related to Figure 6
+The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs.
+http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 
 
+## Convolutional Neural Network Modeling
 
+"A secuential convolutional neural network was compiled. The model consisted of 8 layers that would intake the image and output a classification prediction. This resulted in a model with total params of 918,850, 917,858 of which were trainable.
+
+After only 8 epochs a recall of .75 was achieved. "
+
+
+27 unique Convultional Neural Networks were trained on the dataset from a range of 0-2 dense layers, 1-3 convolutions, and 32, 64, or 128 nodes.
+  
 ## Conclusion
 
+Out of the CNN's that were trained, the best model reached peak accuracy and lowest loss at the 9<sup>th epoch and remained steady thereafter suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for only 9 epochs.
 
-
-## Coronavirus Edition *GET INVOLVED!*
-I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world. 
+## Coronavirus Edition - *GET INVOLVED!*
+I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
 
 
 Find out more & get involved at: https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
 
 
-*The diagnosis of COVID-19 through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[4]*
+*The diagnosis of COVID-19 which presents as Bilateral Interstitial Pneumonia through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[5]*
 
 ## Sources:
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
 [2]: https://arxiv.org/pdf/1711.05225.pdf
 [3]: https://www.nhlbi.nih.gov/health-topics/chest-x-ray
-[4]: https://jamanetwork.com/journals/jama/fullarticle/2762130
+[4]: https://data.mendeley.com/datasets/rscbjbr9sj/2
+[5]: https://jamanetwork.com/journals/jama/fullarticle/2762130
