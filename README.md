@@ -1,8 +1,10 @@
 # Classification Of Pneumonia In Chest X-Rays
-This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays.
+This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays. Throughout this project, __Dr. Grant Rogero, M.D.__ a board certified radiologist at Lodi Adventist Health Hospital advised and certified that these findings are medically accurate.
 
 ![Predicted Norrmal](imgs/Predicted-Normal.png)
+_The normal chest X-ray above depicts clear lungs without any areas of abnormal opacification in the image._
 ![Predicted Pneumonia](imgs/Predicted-Pneumonia.png)
+_The chest X-ray above depicts Bacterial pneumonia which typically exhibits a focal lobar consolidation, in this case in the right upper lobe_
 
 # Motivating Facts
 - Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year <sup>[1]
@@ -28,9 +30,11 @@ The data<sup>[4]</sup> comes from pediatric patients aged 1-5 from Guangzhou Wom
 
 There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
 
+Each image was
+
 "
  Figure S6. Illustrative Examples of Chest X-Rays in Patients with Pneumonia, Related to Figure 6
-The normal chest X-ray (left panel) depicts clear lungs without any areas of abnormal opacification in the image. Bacterial pneumonia (middle) typically exhibits a focal lobar consolidation, in this case in the right upper lobe (white arrows), whereas viral pneumonia (right) manifests with a more diffuse ‘‘interstitial’’ pattern in both lungs.
+
 http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 
 
@@ -41,7 +45,7 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 - 1,  2, or  3 Convolutions
 - 32, 64, or 128 nodes.
 
-Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1/8th the original image size) and output a prediction of whether the X-ray revealed Pneumonia or was Normal.
+Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1/8th the original image size) to create a total of 16,384 parameters for each image. The output was a prediction of whether the X-ray revealed Pneumonia or was Normal.
   
 ## Conclusion
 
