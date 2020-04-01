@@ -2,9 +2,9 @@
 This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays.
 
 # Motivating Facts
-- Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year <sup>[1]<\sup>
-- Over 2 Billion chest X-rays/yr are performed, over half of which lack access to radiological diagnostics [2]
-- Chest X-rays are the best way to detect Pneumonia [3]
+- Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year <sup>[1]
+- Over 2 Billion chest X-rays/yr are performed, over half of which lack access to radiological diagnostics <sup>[2]
+- Chest X-rays are the best way to detect Pneumonia <sup>[3]
 
 __Conclusion: Automated detection of pneumonia at the level of radiological experts would:__
 - _Decrease_ the **time** it takes to get feedback on a medical diagnosis
@@ -27,7 +27,7 @@ I am currently working with the company Arterys through UCLA's COVID-19 startup 
 Find out more & get involved at: https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
 
 
-*The diagnosis of COVID-19 through chest X-rays & CT-Scans has been performed in China, Italy, and the US [4]*
+*The diagnosis of COVID-19 through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[4]*
 
 ## Sources:
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
