@@ -58,9 +58,11 @@ Recall is one of the most important metrics to focus on as this is a medical dec
 
 After only 1 epoch a recall of .83 was achieved. The recall would oscillate within the range of .83 and .99 for the remaining 15 epochs.
 
+This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs in the chest X-rays.
+
 ## Coronavirus Edition - *GET INVOLVED!*
 
-I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
+I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
 
 
 Find Out More & Get Involved:
