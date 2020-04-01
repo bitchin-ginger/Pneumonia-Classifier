@@ -3,7 +3,7 @@ This project is designed to detect pneumonia based on chest X-rays.
 
 # Motivating Facts
 - Each year Pneumonia affects ~450 million people & is in the top 5 leading causes of death each year [1]
-- Each year over 2 Billion chest X-rays are performed, over half of which lack access to radiologicay diagnostics [2]
+- Over 2 Billion chest X-rays/yr are performed, over half of which lack access to radiological diagnostics [2]
 - Chest X-rays are the best way to detect Pneumonia [3]
 
 __Conclusion: Automated detection of pneumonia at the level of radiological experts would:__
