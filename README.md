@@ -1,5 +1,5 @@
 # Classification Of Pneumonia In Chest X-Rays
-This computer vision project is designed to utilize Convultional Neural Networks to detect pneumonia based on chest X-rays. Throughout this project, __Dr. Grant Rogero, M.D.__ a board certified radiologist at Lodi Adventist Health Hospital advised and certified that these findings are medically accurate.
+This computer vision project is designed to utilize Convolutional Neural Networks to detect pneumonia based on chest X-rays. Throughout this project, __Dr. Grant Rogero, M.D.__ a board certified radiologist at Lodi Adventist Health Hospital advised and certified that these findings are medically accurate.
 
 ![Predicted Norrmal](imgs/Predicted-Normal.png)
 
