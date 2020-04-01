@@ -44,7 +44,8 @@ Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1
 
 Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs.
 
-![AUC (raw)](imgs/AUC-raw.png)
+![AUC (raw)](imgs/AUC-raw.png) ![AUC (smoothed)](imgs/AUC-smoothed 0.999%.png)
+
 
 Recall is one of the most important metrics to focus on as this is a medical decision and could mean the difference between life and death and therefore is much more important to flag those X-rays which test positive for pneumonia than to miss them. 
 
