@@ -32,6 +32,7 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 
 
 ## Convolutional Neural Network Modeling
+
 "A secuential convolutional neural network was compiled. The model consisted of 8 layers that would intake the image and output a classification prediction. This resulted in a model with total params of 918,850, 917,858 of which were trainable."
 
 
@@ -42,9 +43,11 @@ After only 1 epoch a recall of .83 was achieved and would oscillate within the r
 27 unique Convolutional Neural Networks were trained on the dataset for 15 epochs each from a range of 0-2 dense layers, 1-3 convolutions, and 32, 64, or 128 nodes.
   
 ## Conclusion
-Out of the CNN's that were trained, the best model reached the highest accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs.
+
+Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs.
 
 ## Coronavirus Edition - *GET INVOLVED!*
+
 I am currently working with the company Arterys through UCLA's COVID-19 startup accelerator program to develop an open source tool that will identify the SARS-CoV-2 virus in chest X-rays & CT-Scans. This project serves as a base where the next step is to semantically segment the outer lining and lower lobes of the lungs. This tool aims to streamline the diagnostics for overwhelmed and understaffed communities throughout the world.
 
 
@@ -52,7 +55,7 @@ Find Out More & Get Involved:
 https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-model-research-and-development
 
 
-*The diagnosis of COVID-19 which presents as Bilateral Interstitial Pneumonia through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[5]*
+*The diagnosis of COVID-19 which presents as __Bilateral Interstitial Pneumonia__ through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[5]*
 
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
 [2]: https://arxiv.org/pdf/1711.05225.pdf
