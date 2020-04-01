@@ -69,9 +69,12 @@ https://helpwithcovid.com/projects/253-accelerate-covid-19-medical-image-ai-mode
 
 *The diagnosis of COVID-19 which presents as __Bilateral Interstitial Pneumonia__ through chest X-rays & CT-Scans has been performed in China, Italy, and the US <sup>[6]*
 
+License: [CC BY 4.0]
+
 [1]: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(10)61459-6/fulltext
 [2]: https://arxiv.org/pdf/1711.05225.pdf
 [3]: https://www.nhlbi.nih.gov/health-topics/chest-x-ray
 [4]: https://data.mendeley.com/datasets/rscbjbr9sj/2
 [5]: http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5
 [6]: https://jamanetwork.com/journals/jama/fullarticle/2762130
+[CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
