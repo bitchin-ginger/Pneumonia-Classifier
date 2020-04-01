@@ -34,8 +34,8 @@ http://www.cell.com/cell/fulltext/S0092-8674(18)30154-5 "
 ## Convolutional Neural Network Modeling
 
 27 unique Convolutional Neural Networks were compiled and trained on the dataset for 15 epochs each. The 27 was chosen as a grid search between 3 variations of 3 parameters (3x3x3 different networks). These parameters and options are as follows:
-- 0,1, or 2 Dense Layers
-- 1,2, or 3 Convolutions
+- 0,  1, or  2 Dense Layers
+- 1,  2, or  3 Convolutions
 - 32, 64, or 128 nodes.
 
 Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1/8th the original image size) and output a prediction of whether the X-ray revealed Pneumonia or was Normal.
