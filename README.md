@@ -31,7 +31,7 @@ To replicate the project download the data<sup>[4]</sup><sup>,[5]</sup> and foll
 
 The data<sup>[4]</sup><sup>,[5]</sup> comes from pediatric patients aged 1-5 from Guangzhou Women & Children's Medical Center, Guangzhou. All chest radiographs were initially screened for quality control by removing all low quality or unreadable scans. The diagnoses for the images were then graded by 2 expert physicians and the evaluation set was also checked by a 3<sup>rd</sup> expert
 
-There are 5,863 X-ray images, 3 folders (train, test, val) and 2 categories (Pneumonia/Normal).
+There are 5,863 X-ray images, 2 folders (train, test) and 2 categories (Pneumonia/Normal).
 
 ## Convolutional Neural Network Modeling
 
