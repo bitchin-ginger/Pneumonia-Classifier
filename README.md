@@ -44,7 +44,7 @@ Each of these would intake X-ray images, reduce them to size 128 x 128 pixels (1
 
 Out of the CNN's that were trained, the overall best model reached the highest recall, best accuracy, lowest loss, and highest recall at the 15<sup>th</sup> epoch suggesting that in order to avoid overfitting the best training thus far discovered would be using 3 Convulational layers, 32 nodes, 2 dense layers, and trained for 15 epochs. The following 4 graphs reveal the best model. The raw data for each epoch is greyed out and the smoothed graph is bolded to clearly reveal the trend.
 
-![smoothing%](imgs/Smoothing%.png)
+![Percent Smoothed](imgs/Smoothing.png)
 ![AUC (smoothed)](imgs/AUC-smoothed.png)
 ![Accuracy (smoothed)](imgs/Accuracy-smoothed.png)
 ![Loss (smoothed)](imgs/Loss-smoothed.png)
